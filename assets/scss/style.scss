@@ -1,0 +1,69 @@
+@import 'variables';
+@import 'mixin';
+@import 'typo';
+@import 'button';
+
+html {
+  font-family: $font-family-primary;
+  font-weight: $font-weight-light;
+  font-size: $font-size-3;
+  color: $dark-grey;
+}
+
+*, *:before, *:after {
+  margin: 0;
+}
+
+.wrapper {
+  position: relative;
+  padding-bottom: percentage(422 / 750);
+  background-color: $grey;
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  color: $dark-grey;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+p {
+  margin: 12px 0;
+}
+
+.title {
+  font-family: $font-family-secondary;
+  font-weight: $font-weight-normal;
+  font-size: $font-size-2;
+  color: $black;
+  padding: 24px 0;
+}
+
+.col {
+  @include tablet {
+    column-count: 2;
+  }
+
+  &--border {
+    border-top: 1px solid $grey;
+    margin-top: 32px;
+  }
+}
+
+.content {
+  margin-bottom: 36px;
+}

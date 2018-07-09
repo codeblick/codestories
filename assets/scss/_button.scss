@@ -1,0 +1,16 @@
+.button {
+  color: white;
+  text-transform: uppercase;
+  font-weight: $font-weight-normal;
+  padding: 5px 12px;
+  background-color: $black;
+  display: inline-block;
+  text-decoration: none;
+  transition: transform .15s;
+  will-change: transform;
+
+  &:hover {
+    text-decoration: none;
+    transform: scale(1.02);
+  }
+}

@@ -1,0 +1,41 @@
+/* playfair-display-regular - latin */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  src: url('~/static/fonts/playfair-display-v11-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Playfair Display'), local('PlayfairDisplay-Regular'),
+  url('~/static/fonts/playfair-display-v11-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('~/static/fonts/playfair-display-v11-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+  url('~/static/fonts/playfair-display-v11-latin-regular.woff') format('woff'), /* Modern Browsers */
+  url('~/static/fonts/playfair-display-v11-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('~/static/fonts/playfair-display-v11-latin-regular.svg#PlayfairDisplay') format('svg'); /* Legacy iOS */
+}
+
+/* hind-vadodara-300 - latin */
+@font-face {
+  font-family: 'Hind Vadodara';
+  font-style: normal;
+  font-weight: 300;
+  src: url('~/static/fonts/hind-vadodara-v3-latin-300.eot'); /* IE9 Compat Modes */
+  src: local('Hind Vadodara Light'), local('HindVadodara-Light'),
+  url('~/static/fonts/hind-vadodara-v3-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('~/static/fonts/hind-vadodara-v3-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+  url('~/static/fonts/hind-vadodara-v3-latin-300.woff') format('woff'), /* Modern Browsers */
+  url('~/static/fonts/hind-vadodara-v3-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('~/static/fonts/hind-vadodara-v3-latin-300.svg#HindVadodara') format('svg'); /* Legacy iOS */
+}
+
+/* hind-vadodara-regular - latin */
+@font-face {
+  font-family: 'Hind Vadodara';
+  font-style: normal;
+  font-weight: 400;
+  src: url('~/static/fonts/hind-vadodara-v3-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Hind Vadodara Regular'), local('HindVadodara-Regular'),
+  url('~/static/fonts/hind-vadodara-v3-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('~/static/fonts/hind-vadodara-v3-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+  url('~/static/fonts/hind-vadodara-v3-latin-regular.woff') format('woff'), /* Modern Browsers */
+  url('~/static/fonts/hind-vadodara-v3-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('~/static/fonts/hind-vadodara-v3-latin-regular.svg#HindVadodara') format('svg'); /* Legacy iOS */
+}
