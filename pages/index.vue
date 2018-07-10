@@ -6,6 +6,13 @@
 
 <script>
 export default {
+  head () {
+    return {
+      link: [
+        { rel: 'canonical', href: this.$route.path }
+      ]
+    }
+  },
   async asyncData ({app}) {
     return {
       posts: await app.$content('/posts')

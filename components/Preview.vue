@@ -1,7 +1,7 @@
 <template>
   <article class="preview">
-    <div class="wrapper" v-if="!hideThumbnail">
-      <img :src="data.thumbnail">
+    <div v-if="!hideThumbnail">
+      <amp-img :src="data.thumbnail" width="750" height="422" layout="responsive"></amp-img>
     </div>
     <h2 class="title">{{ data.title }}</h2>
     <time :datetime="data.timestamp">{{ data.timestamp | date }}</time>

@@ -12,6 +12,6 @@ module.exports = {
   ],
   api: {
     baseURL: 'http://localhost:3000',
-    browserBaseURL: 'http://localhost:3000'
+    browserBaseURL: process.env.BROWSER_BASE_URL || 'http://localhost:3000'
   }
 }

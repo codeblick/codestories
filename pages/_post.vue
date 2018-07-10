@@ -1,8 +1,8 @@
 <template>
   <div>
     <article class="post">
-      <div class="wrapper">
-        <img :src="post.thumbnail">
+      <div>
+        <amp-img :src="post.thumbnail" width="750" height="422" layout="responsive"></amp-img>
       </div>
       <h2 class="title">{{ post.title }}</h2>
       <time :datetime="post.date">{{ post.date | date }}</time>
@@ -24,7 +24,7 @@ export default {
         { hid: 'description', name: 'description', content: this.post.description }
       ],
       link: [
-        { rel: 'amphtml', href: '/amp' + this.$route.path }
+        { rel: 'canonical', href: this.$route.path }
       ]
     }
   },

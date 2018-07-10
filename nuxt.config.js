@@ -84,9 +84,7 @@ module.exports = {
   */
   hooks: {
     'render:route': (url, page, {req, res}) => {
-      if (url.startsWith('/amp/')) {
-        page.html = modifyHtml(page.html)
-      }
+      page.html = modifyHtml(page.html)
     },
     'generate:page': (page) => {
       page.html = modifyHtml(page.html)

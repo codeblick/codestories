@@ -14,24 +14,6 @@ html {
   margin: 0;
 }
 
-.wrapper {
-  position: relative;
-  padding-bottom: percentage(422 / 750);
-  background-color: $grey;
-
-  img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-  }
-}
-
-img {
-  width: 100%;
-  height: auto;
-}
-
 a {
   color: $dark-grey;
   text-decoration: none;
@@ -125,7 +107,7 @@ p {
     text-decoration: none;
   }
 }
-/* <footer> */
+
 .footer {
   border-top: 1px solid $grey;
   padding-top: 4px;
