@@ -55,7 +55,12 @@ p {
 
 .col {
   @include tablet {
-    column-count: 2;
+    display: flex;
+    align-items: center;
+
+    & > article {
+      flex: 1;
+    }
   }
 
   &--border {
@@ -66,4 +71,68 @@ p {
 
 .content {
   margin-bottom: 36px;
+}
+
+.post {
+  &__intro {
+    padding: 24px 0 12px;
+    font-weight: $font-weight-normal;
+  }
+
+  margin-bottom: 36px;
+}
+.suggestion {
+  margin-top: 64px;
+}
+
+.preview {
+  text-align: center;
+  margin-bottom: 48px;
+
+  &__text {
+    padding: 24px 0;
+    @include tablet {
+      padding: 24px 96px;
+    }
+
+    &--small {
+      @include tablet {
+        padding: 24px 48px;
+      }
+    }
+  }
+}
+
+.app {
+  padding: 32px 16px;
+  max-width: 750px;
+  margin: auto;
+}
+
+.header {
+  text-align: center;
+  border-bottom: 1px solid $grey;
+  margin-bottom: 32px;
+}
+.brand a {
+  font-family: $font-family-secondary;
+  font-weight: $font-weight-normal;
+  font-size: $font-size-1;
+  margin-bottom: 8px;
+  color: $black;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+/* <footer> */
+.footer {
+  border-top: 1px solid $grey;
+  padding-top: 4px;
+
+  &__link {
+    text-align: center;
+    display: inline-block;
+    width: 33.33%
+  }
 }

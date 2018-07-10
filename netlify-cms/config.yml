@@ -1,23 +1,21 @@
 backend:
   name: github
-  branch: master
   repo: codeblick/codestories
+  branch: master
 
 publish_mode: editorial_workflow
 
 media_folder: "static/uploads"
-public_folder: "uploads"
 
 collections:
-  - name: "post"
+  - name: "posts"
     label: "Post"
     folder: "content/posts"
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Cover Image", name: "thumbnail", widget: "image"}
+      - {label: "Publish Date", name: "timestamp", widget: "datetime"}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}

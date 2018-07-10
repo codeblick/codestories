@@ -1,8 +1,7 @@
 ---
-layout: post
 title: My first post
 thumbnail: /uploads/placeholder.png
-date: '2018-07-09T16:15:47+02:00'
+timestamp: '2018-07-09T16:15:47+02:00'
 description: My first description
 ---
 I really believe that if you practice enough you could paint the 'Mona Lisa' with a two-inch brush. At home you have unlimited time. You can't make a mistake. Anything that happens you can learn to use - and make something beautiful out of it. Let all these things just sort of happen. A big strong tree needs big strong roots.
