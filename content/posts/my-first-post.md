@@ -10,7 +10,7 @@ If you hypnotize it, it will go away. We can fix anything. We don't make mistake
 
 La- da- da- da- dah. Just be happy. This is truly an almighty mountain. Don't forget to tell these special people in your life just how special they are to you. It's hard to see things when you're too close. Take a step back and look.
 
-![Alt text for the image...](uploads/placeholder.png)
+![Alt text for the image...](/uploads/placeholder.png)
 
 You can get away with a lot. Fluff that up. This is your world. The shadows are just like the highlights, but we're going in the opposite direction. Imagination is the key to painting.
 
