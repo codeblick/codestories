@@ -1,5 +1,22 @@
 <template>
   <div class="app">
+
+    <amp-analytics type="googleanalytics">
+      <script type="application/json">
+      {
+        "vars": {
+          "account": "UA-45823613-14"
+        },
+        "triggers": {
+          "trackPageview": {
+            "on": "visible",
+            "request": "pageview"
+          }
+        }
+      }
+      </script>
+    </amp-analytics>
+
     <header class="header">
       <h1 class="brand">
         <router-link to="/">
