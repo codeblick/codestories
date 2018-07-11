@@ -14,10 +14,12 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.1",
+    "image-size": "^0.6.3",
     "netlify-cms": "^1.9.3",
     "nuxt": "^1.4.1",
     "nuxt-netlify-cms": "^3.0.1",
-    "nuxtent": "^1.4.1"
+    "nuxtent": "^1.4.1",
+    "prismjs": "^1.15.0"
   },
   "devDependencies": {
     "eslint": "latest",

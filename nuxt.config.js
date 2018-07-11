@@ -88,7 +88,7 @@ module.exports = {
     },
     'generate:page': (page) => {
       page.html = modifyHtml(page.html)
-    },
+    }
   },
   /*
   ** Render
