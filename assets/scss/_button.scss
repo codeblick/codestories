@@ -11,6 +11,11 @@
 
   &:hover {
     text-decoration: none;
-    transform: scale(1.02);
+    transform: scale(1.01);
+  }
+
+  &:active {
+    text-decoration: none;
+    transform: scale(.98);
   }
 }
